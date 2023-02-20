@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.igmc"
+    namespace "com.igm_c"
     defaultConfig {
-        applicationId "com.igmc"
+        applicationId "com.igm_c"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -1,4 +1,4 @@
-package com.igmc;
+package com.igm_c;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

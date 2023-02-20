@@ -21,7 +21,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'IGMC' do
+target 'Igm_C' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -43,7 +43,7 @@ target 'IGMC' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'IGMCTests' do
+  target 'Igm_CTests' do
     inherit! :complete
     # Pods for testing
   end
